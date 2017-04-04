@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "Civic.h"
 
 @interface ViewController ()
-
+@property(nonatomic,strong) NSString *iAmPrivate;
 @end
 
 @implementation ViewController
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    Civic *civic = [[Civic alloc]init];
 }
 
 
